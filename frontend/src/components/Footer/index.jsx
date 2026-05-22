@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-2 text-2xl font-bold text-indigo-400 mb-4">
-              <BookOpen className="w-8 h-8" />
+            <div className="flex items-center space-x-2 text-2xl font-bold text-white mb-4">
+              <img src="/logo.jpg" alt="ShelfMart Logo" className="h-10 w-auto object-contain rounded bg-white p-1" />
               <span>ShelfMart</span>
             </div>
             <p className="text-gray-400">
@@ -37,9 +37,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-100">Connect</h3>
             <p className="text-gray-400 mb-2">Subscribe to our newsletter</p>
-            <div className="flex w-full">
-              <input type="email" placeholder="Email address" className="px-4 py-2 w-full min-w-0 rounded-l-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-              <button className="bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-r-md transition-colors whitespace-nowrap flex-shrink-0">
+            <div className="flex w-full shadow-lg rounded-md overflow-hidden">
+              <input type="email" placeholder="Email address" className="px-4 py-2 w-full min-w-0 bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+              <button className="bg-indigo-600 hover:bg-indigo-700 px-5 py-2 font-medium transition-colors whitespace-nowrap flex-shrink-0 text-white">
                 Subscribe
               </button>
             </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-indigo-600">
-          <BookOpen className="w-8 h-8" />
+          <img src="/logo.jpg" alt="ShelfMart Logo" className="h-10 w-auto object-contain" />
           <span>ShelfMart</span>
         </Link>
 
@@ -34,11 +34,6 @@ const Navbar = () => {
               <Link to="/sell" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">
                 Sell Book
               </Link>
-              {user.role === 'admin' && (
-                <Link to="/admin" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">
-                  Dashboard
-                </Link>
-              )}
               <Link to="/cart" className="relative text-gray-600 hover:text-indigo-600 transition-colors">
                 <ShoppingCart className="w-6 h-6" />
                 {cartItemCount > 0 && (

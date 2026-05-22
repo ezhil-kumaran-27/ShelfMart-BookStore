@@ -11,7 +11,6 @@ import Checkout from '../pages/Checkout';
 import Orders from '../pages/Orders';
 import SellBook from '../pages/SellBook';
 import Profile from '../pages/Profile';
-import AdminDashboard from '../pages/AdminDashboard';
 import SearchPage from '../pages/Search';
 
 const AppRoutes = () => {
@@ -49,11 +48,6 @@ const AppRoutes = () => {
         </ProtectedRoute>
       } />
       
-      <Route path="/admin" element={
-        <ProtectedRoute adminOnly={true}>
-          <AdminDashboard />
-        </ProtectedRoute>
-      } />
     </Routes>
   );
 };
