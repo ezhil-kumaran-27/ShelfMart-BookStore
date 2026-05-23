@@ -38,9 +38,7 @@ const Login = () => {
     <div className="min-h-screen bg-gray-900 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="flex justify-center">
-          <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center shadow-lg shadow-indigo-500/30">
-            <Shield className="w-8 h-8 text-white" />
-          </div>
+          <img src="/logo.jpg" alt="ShelfMart Logo" className="h-24 w-auto object-contain rounded-xl shadow-lg shadow-indigo-500/20" />
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
           ShelfMart Admin Portal
